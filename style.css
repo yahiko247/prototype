@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Nunito',sans-serif;
+}
+Body{
+    background-color: aqua;
+}
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+}
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: #00324a;
+
+}
+.right-section{
+    grid-column: span 5;
+    background-color: #fff;
+    height: 100%;
+}
+.left-content{
+    padding: 2rem 4rem;
+}
+
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+.profile img{
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #d9dfe2;
+    
+}
+.name{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.2rem 0;
+}
+
+.career{
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+}
+
+.main-title{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.contactinfo ul{
+    padding: 2rem 0 ;
+}
+.contactinfo ul li{
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #718096;
+}
+
+.contactinfo ul li i{
+    padding-right: 1rem;
+    font-size: 1rem;
+    color: #2D9CBD;
+}
+.skils-section ul{
+    padding: 2rem 0;
+}
+.skils-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .4rem 0;
+}
+.Progress-bar{
+    width: 100%;
+    height: .4rem;
+    background-color: #2d3748;
+    position: relative;
+    border-radius: 12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #2D9CBD;
+}
+.js-programming{
+    width: 70%;
+}
+.Photoshop{
+    width: 89%;
+}
+.Html{
+    width: 90%;
+}
+.C{
+    width: 80%;
+}
+.PHP{
+    width: 96%;
+}
+.Micosoftword{
+    width: 100%;
+}
+
+.skill-title{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.sub-title{
+    padding-top: 2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.position{
+    color: #fff;
+    padding: .4rem 0;
+}
+.reference-section li{
+    color: #fff;
+    padding: .4rem 0;
+}
+.reference-section li i{
+    padding-right: 1rem;
+    font-size: 1rem;
+    color: #2D9CBD;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(2, 0, 128);
+    padding-bottom: 1.5rem;
+    position: relative;
+}
+.para{
+    line-height: 1.6rem;
+    color: #718096;
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-bottom: 2rem;
+}
+.expectation-section ul{
+    padding: 2rem 0;
+}
+.expectation-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .4rem 0;
+}
+.expectation-bar{
+    width: 100%;
+    height: .4rem;
+    background-color: #2d3748;
+    position: relative;
+    border-radius: 12px;
+}
+.experience{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #2D9CBD;
+}
+.experience{
+    width: 70%;
+}
