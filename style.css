@@ -190,8 +190,8 @@ Body{
 @media only screen and (max-width: 500px){
     .body{
 
-        min-height: 50vh;
-        width: 50%;
+        min-height: 60vh;
+        width: 60%;
         
     }
 }
@@ -208,16 +208,16 @@ Body{
 @media only screen and (max-width: 1000px){
     .left-section{
         
-        min-height: 90vh;
-        width: 90%;
+        min-height: 60vh;
+        width: 60%;
         
     }
 }
 @media only screen and (max-width: 1000px){
     .right-section{
         
-        min-height: 90vh;
-        width: 90%;
+        min-height: 60vh;
+        width: 60%;
         
     }
 }
