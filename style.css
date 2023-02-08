@@ -204,3 +204,20 @@ Body{
         
     }
 }
+
+@media only screen and (max-width: 1000px){
+    .left-section{
+        
+        min-height: 90vh;
+        width: 90%;
+        
+    }
+}
+@media only screen and (max-width: 1000px){
+    .right-section{
+        
+        min-height: 90vh;
+        width: 90%;
+        
+    }
+}
