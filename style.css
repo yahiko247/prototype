@@ -187,7 +187,7 @@ Body{
     width: 70%;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
     .main-content{
 
         height: 90%;
@@ -196,7 +196,7 @@ Body{
     }
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
     .main-content{
         
         height: 90%;
