@@ -221,3 +221,19 @@ Body{
         
     }
 }
+@media only screen and (max-width: 1000px){
+    .left-content{
+        
+        min-height: 60vh;
+        width: 60%;
+        
+    }
+}
+@media only screen and (max-width: 1000px){
+    .right-main-content{
+        
+        min-height: 60vh;
+        width: 60%;
+        
+    }
+}
