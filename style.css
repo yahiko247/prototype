@@ -186,3 +186,21 @@ Body{
 .experience{
     width: 70%;
 }
+
+@media only screen and (max-width: 400px){
+    .main-content{
+
+        height: 90%;
+        width: 90%;
+        
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .main-content{
+        
+        height: 90%;
+        width: 90%;
+        
+    }
+}
