@@ -190,8 +190,8 @@ Body{
 @media only screen and (max-width: 500px){
     .body{
 
-        min-height: 60vh;
-        width: 60%;
+        min-height: 50vh;
+        width: 50%;
         
     }
 }
